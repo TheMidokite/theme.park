@@ -1,0 +1,33 @@
+/*_____________________CUSTOM_THEME______________________*/
+/* --body-before: #4b0082; /* This is the background that creates the nebula effect, background uses a transparency of 10% SET TO NONE TO REMOVE NEBULA EFFECT */
+/* --body-after: #8a2be2; /* This is the background that creates the nebula effect, background uses a transparency of 20% SET TO NONE TO REMOVE NEBULA EFFECT */
+/* --body-animation: flicker; This is the background that flickers. SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
+/* --custom-text-header-animation: textflicker; /* SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
+
+@import url(/css/addons/unraid/login-page/retro-terminal/retro-terminal-base.css);
+:root {
+    --main-bg-color: black;
+    --body-before: #4b00821a; /* Indigo with transparency for nebula effect */
+    --body-after: #8a2be233; /* Blue Violet with transparency for nebula effect */
+    --body-animation: flicker;
+    --logo: url(/css/addons/unraid/login-page/alien/logo/wings_shadow.png) center no-repeat;
+    --text-color: #ffffff;
+    --input-color: #ffffff;
+    --link-color: #add8e6; /* Light blue to fit nebula theme */
+    --link-color-hover: #ff69b4; /* Hot pink for contrast */
+    --case-color: #ffffff;
+    --button-text-color: #ffffff;
+    --button-text-color-hover: #000;
+    --button-color: #ffffff;
+    --button-color-hover: #9370db; /* Medium purple for nebula theme */
+    --selection-color: #ff69b4; /* Hot pink for contrast */
+    --custom-text-header: #ffffff;
+    --custom-text-header-shadow: #ffffff;
+    --custom-text-header-animation: textflicker;
+    --input-font: 'Share Tech Mono', monospace;
+    --text-font: 'Share Tech Mono', monospace;
+    --loginbox-background-color: transparent;
+    --text-shadow: 0 0 8px;
+    --text-shadow-color: #ffffff;
+    --box-shadow: 0 0 15px;
+}
